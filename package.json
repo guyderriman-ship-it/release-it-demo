@@ -1,8 +1,11 @@
 {
+  "name": "release-it-demo",
+  "version": "1.0.0",
+"scripts": {
+    "release": "release-it"
+  },
   "devDependencies": {
     "release-it": "^19.0.4"
-  },
-  "scripts": {
-    "release": "release-it"
   }
+  
 }
