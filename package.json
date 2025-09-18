@@ -1,11 +1,10 @@
 {
   "name": "release-it-demo",
-  "version": "1.0.0",
-"scripts": {
+  "version": "1.0.1",
+  "scripts": {
     "release": "release-it"
   },
   "devDependencies": {
     "release-it": "^19.0.4"
   }
-  
 }
