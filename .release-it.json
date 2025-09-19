@@ -13,7 +13,8 @@
   },
   "github": {
     "release": false,
-    "releaseName": "myapp-v${version}"
+    "releaseName": "myapp-v${version}",
+    "timeout": 10000
   },
   "npm": {
     "publish": false
