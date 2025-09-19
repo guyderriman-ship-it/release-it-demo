@@ -1,13 +1,3 @@
-
-npx release-process-ci -- Run by CICD - where the commit has a tag v[something] e.g. v3.3.5 then run this command to: create the GitHub release in "prerelease" mode
-npx release-finalise-ci -- Run by CICD - post production release task to change release from "prerelease" to "latest"
-    
-
-npm config set cafile "C:\certs\AGLCorp-RootCA.cer"
-
-
-
-
 # Release-It Demo
 
 ## Setup
@@ -51,12 +41,12 @@ If working behind a corporate network, you may need to configure certificates:
 	export NODE_EXTRA_CA_CERTS="C:\certs\AGLCorp-RootCA.cer"
 	```
 
-- **(Unsafe) Disable certificate validation:**
-	- Node.js:
+- **(OR UNSAFE NOT RECOMMENDED ) Disable certificate validation:**
+	- *** Node.js:**
 		```bash
 		export NODE_TLS_REJECT_UNAUTHORIZED=0
 		```
-	- npm:
+	- *** npm:**
 		```bash
 		npm set strict-ssl false
 		```
