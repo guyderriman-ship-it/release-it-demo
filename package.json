@@ -4,7 +4,7 @@
   "scripts": {
     "release-setup": "release-it --github.release=false && echo \"Pull Request the release changes back to main branch to initiate the release process\"",
     "release-process-ci": "release-it --github.release=true --github.preRelease=true --no-git --no-plugins.@release-it/conventional-changelog.infile --no-increment --ci",
-    "release-confirm-ci": "release-it --github.release=true --github.preRelease=false --no-increment --ci"
+    "release-finalise-ci": "release-it --github.release=true --github.preRelease=false --no-git --no-plugins.@release-it/conventional-changelog.infile --no-increment --ci"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^10.0.1",
