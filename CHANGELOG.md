@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.1.4](https://github.com/guyderriman-ship-it/release-it-demo/compare/v3.1.2...v3.1.4) (2025-09-19)
+
+### Bug Fixes
+
+* added dot.env devDependency ([5cd5757](https://github.com/guyderriman-ship-it/release-it-demo/commit/5cd57572c99528f6eca40f763a6248802c645306))
+* fix ([04b509b](https://github.com/guyderriman-ship-it/release-it-demo/commit/04b509bad725891b7ac14d6ee2043ead70521313))
+* ref dotenv in package.json ([2a5c1fa](https://github.com/guyderriman-ship-it/release-it-demo/commit/2a5c1fa836b605c61104166113d70c3fbc64ed31))
+* trying to fix ([120b11b](https://github.com/guyderriman-ship-it/release-it-demo/commit/120b11b0a8a666451f656bcb064e35787b5481a3))
+
 ## [3.1.3](https://github.com/guyderriman-ship-it/release-it-demo/compare/v3.1.2...v3.1.3) (2025-09-19)
 
 ### Bug Fixes
