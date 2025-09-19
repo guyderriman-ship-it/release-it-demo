@@ -3,7 +3,7 @@
   "version": "3.1.6",
   "scripts": {
     "release-setup": "release-it --github.release=false && echo \"Pull Request the release changes back to main branch to initiate the release process\"",
-    "release-process-ci": "release-it --no-increment --ci --verbose --no-git --github.skipChecks=true --github.release=true --github.preRelease=true --no-plugins.@release-it/conventional-changelog.infile --",
+    "release-process-ci": "dotenv -- release-it --no-increment --ci --verbose --no-git --github.skipChecks=true --github.release=true --github.preRelease=true --no-plugins.@release-it/conventional-changelog.infile --",
     "release-finalise-ci": "dotenv -- release-it --no-increment --ci --verbose --no-git --github.release=true --github.preRelease=false --no-plugins.@release-it/conventional-changelog.infile --"
   },
   "devDependencies": {
