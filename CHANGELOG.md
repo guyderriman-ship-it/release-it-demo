@@ -1,5 +1,7 @@
 # Changelog
 
+* feat!: Added an echo (d138a73)
+
 ## [1.1.0](https://github.com/guyderriman-ship-it/release-it-demo/compare/v1.0.3...v1.1.0) (2025-09-19)
 
 ### Features

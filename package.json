@@ -1,8 +1,8 @@
 {
   "name": "release-it-demo",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "scripts": {
-    "release": "release-it \"echo \\\"Create a pull Request to initiate the release process\\\"\""
+    "release": "release-it && echo \"Pull Request the release changes back to main branch to initiate the release process\""
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^10.0.1",
