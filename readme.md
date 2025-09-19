@@ -13,19 +13,19 @@
 	```bash
 	npx release-initiate
 	```
-	Instantiates the release, increments the version, and upserts `CHANGELOG.md`.
+	When a developer wants to create a release candidate, say at the end of a sprint, they create a new branch and run this command. It will instantiate the release, increment the version, and upserts `CHANGELOG.md`. The branch has to be pull requested back in to main.
 
 - **CI/CD (prerelease):**
 	```bash
 	npx release-publish-prerelease-ci
 	```
-	Used in the CI - detect if commit has a tag (e.g., `v3.3.5`) then run this command. It creates the GitHub release in "prerelease" mode.
+	Used in the CI - detect if commit has a tag (e.g., `v3.3.5`), if so then run this command. It creates the GitHub release in "prerelease" mode.
 
 - **CI/CD (finalise):**
 	```bash
 	npx release-finalise-prerelease-ci
 	```
-	Post-production release task to change the release from "prerelease" to "latest".
+	Post-production deployment task to change the GitHub release from "prerelease" to "latest".
 
 ## Corporate Network Notes
 
