@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/guyderriman-ship-it/release-it-demo/compare/v1.1.0...v3.0.0) (2025-09-19)
+
+### ⚠ BREAKING CHANGES
+
+* Added an echo
+
+### Features
+
+* Added an echo ([d138a73](https://github.com/guyderriman-ship-it/release-it-demo/commit/d138a73d92cee0f11b5ab172b7d43ad604378be4))
+* updated echo statement ([5a679ca](https://github.com/guyderriman-ship-it/release-it-demo/commit/5a679cab8516c33de31212f8760b3538ba726655))
+
 * feat!: Added an echo (d138a73)
 
 ## [1.1.0](https://github.com/guyderriman-ship-it/release-it-demo/compare/v1.0.3...v1.1.0) (2025-09-19)
