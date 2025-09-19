@@ -1,5 +1,7 @@
 # Changelog
 
+## [3.1.8](https://github.com/guyderriman-ship-it/release-it-demo/compare/v3.1.7...v3.1.8) (2025-09-19)
+
 ## [3.1.7](https://github.com/guyderriman-ship-it/release-it-demo/compare/v3.1.5...v3.1.7) (2025-09-19)
 
 ## [3.1.6](https://github.com/guyderriman-ship-it/release-it-demo/compare/v3.1.5...v3.1.6) (2025-09-19)
