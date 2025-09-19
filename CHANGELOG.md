@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.1.2](https://github.com/guyderriman-ship-it/release-it-demo/compare/v3.1.1...v3.1.2) (2025-09-19)
+
+### Bug Fixes
+
+* fixed stuff ([a2d82d1](https://github.com/guyderriman-ship-it/release-it-demo/commit/a2d82d141604ba2c71f70f993f14b9679a3dc5b1))
+
 ## [3.1.1](https://github.com/guyderriman-ship-it/release-it-demo/compare/v3.1.0...v3.1.1) (2025-09-19)
 
 ### Features
