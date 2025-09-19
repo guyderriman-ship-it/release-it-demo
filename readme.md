@@ -11,19 +11,19 @@
 
 - **Developer (local):**
 	```bash
-	npx release-setup
+	npx release-initiate
 	```
 	Instantiates the release, increments the version, and upserts `CHANGELOG.md`.
 
 - **CI/CD (prerelease):**
 	```bash
-	npx release-process-ci
+	npx release-publish-prerelease-ci
 	```
-	Run when the commit has a tag (e.g., `v3.3.5`). Creates the GitHub release in "prerelease" mode.
+	Used in the CI - detect if commit has a tag (e.g., `v3.3.5`) then run this command. It creates the GitHub release in "prerelease" mode.
 
 - **CI/CD (finalise):**
 	```bash
-	npx release-finalise-ci
+	npx release-finalise-prerelease-ci
 	```
 	Post-production release task to change the release from "prerelease" to "latest".
 
