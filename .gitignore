@@ -9,6 +9,7 @@ yarn-debug.log*
 yarn-error.log*
 coverage/
 *.env
+!template.env
 *.tgz
 .idea/
 .vscode/

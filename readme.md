@@ -1,4 +1,7 @@
-   
+first setup your .env file 
+create a GitHub PAT token with "repo" access
+copy template.env and rename to .env on the project root, copy your new PAT token into the file
+
 usage
 npx release-setup -- Run by developer In the current branch instantiates the release, increments the version & upserts changelog.md  
 npx release-process-ci -- Run by CICD - where the commit has a tag v[something] e.g. v3.3.5 then run this command to: create the GitHub release in "prerelease" mode
