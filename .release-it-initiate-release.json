@@ -13,7 +13,7 @@
   },
   "github": {
     "release": false,
-    "releaseName": "${packageName}-v${version}"
+    "releaseName": "${packageName}-v${version}",
   },
   "npm": {
     "publish": false
