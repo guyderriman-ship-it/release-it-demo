@@ -1,5 +1,10 @@
 # Release-It Demo
 
+Current state issue: 
+the release command tags that commit - if we come in on a PR it will be a different commit
+
+
+
 ## Setup
 
 1. **Create your `.env` file**
