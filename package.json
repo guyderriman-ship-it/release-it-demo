@@ -1,6 +1,6 @@
 {
   "name": "release-it-demo",
-  "version": "3.1.8",
+  "version": "3.2.0",
   "scripts": {
     "release-initiate": "release-it --github.release=false && echo \"Pull Request the release changes back to main branch to initiate the release process\"",
     "release-publish-prerelease-ci": "dotenv -- release-it --no-increment --ci --verbose --no-git --github.release --github.update --github.preRelease=true --no-plugins.@release-it/conventional-changelog.infile",
